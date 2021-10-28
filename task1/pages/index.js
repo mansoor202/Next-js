@@ -11,7 +11,12 @@ function SayHello(){
             <a>Teams</a>
         </Link>
         <h2>Hello</h2>
+
+        <Link href="/products">
+            <a>See Products</a>
+        </Link>
         </>
+
     )
 }
 

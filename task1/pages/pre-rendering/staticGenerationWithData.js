@@ -1,3 +1,4 @@
+import UserComponent from "../../components/user";
 function Users({users}){
     
 
@@ -6,7 +7,7 @@ function Users({users}){
         <>
         <h2>Users Here</h2>
         <ul>
-            {users.map(user=> <li key={user.email}>{user.email}</li>)}
+            {users.map(user=> <UserComponent user={user} key={user.id}/>)}
             
         
         </ul>
